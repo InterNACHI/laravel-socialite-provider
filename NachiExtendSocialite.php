@@ -11,6 +11,6 @@ class NachiExtendSocialite
      */
     public function handle(SocialiteWasCalled $socialiteWasCalled)
     {
-        $socialiteWasCalled->extendSocialite('nachi', __NAMESPACE__ . '\Provider');
+        $socialiteWasCalled->extendSocialite('nachi', __NAMESPACE__ . '\NachiProvider');
     }
 }
