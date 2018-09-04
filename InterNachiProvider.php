@@ -6,9 +6,9 @@ use Laravel\Socialite\Two\ProviderInterface;
 use SocialiteProviders\Manager\OAuth2\AbstractProvider;
 use SocialiteProviders\Manager\OAuth2\User;
 
-class NachiProvider extends AbstractProvider implements ProviderInterface
+class InterNachiProvider extends AbstractProvider implements ProviderInterface
 {
-    const IDENTIFIER = 'NACHI';
+    const IDENTIFIER = 'INTERNACHI';
 
     /**
      * {@inheritdoc}
